@@ -1,0 +1,15 @@
+{
+  "name": "Sherry",
+  "version": "2.0.0",
+  "description": "Rich Presence Status for your Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://www.instagram.com/leme_sherry",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^3.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
