@@ -2,6 +2,7 @@
 const DiscordRPC = require('discord-rpc'); // to use discord rich presence modules in this code.
 const client = new DiscordRPC.Client({ transport: 'ipc' }); // making client variable with in our rich presence client.
 require('dotenv').config(); // to include contents of our .env file (the application id).
+
 (async () => {
     client.on('ready', async () => { // starting ready event.
         await client.setActivity({ // Set the values as you want, these values will appear on your status.
