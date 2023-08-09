@@ -14,7 +14,7 @@ DiscordRPC.register(clientID); // registering client id
                 { label: `don't click (explicit content)`, url: "https://www.pinterest.com/lemesherry" },
                 { label: "Github", url: "https://github.com/lemesherry" }],
             details: "Stop stalking babes ^_^",
-            state: "Love you 3000 now fuck off <3",
+            state: "Love you 3000 now fuckoff <3",
             startTimestamp: new Date(),
             smallImageKey: "sherry",
             smallImageText: "Still stalking?",

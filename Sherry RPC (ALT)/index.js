@@ -7,7 +7,7 @@ require('dotenv').config(); // to include contents of our .env file (the applica
     client.on('ready', async () => { // starting ready event.
         await client.setActivity({ // Set the values as you want, these values will appear on your status.
 // NOTE: be carefull only change the value that are written inside double quoted commas.
-            buttons: [{ label: "My onlyfans.com", url: "https://www.instagram.com/leme_sherry" }
+            buttons: [{ label: "Don't Click", url: "https://www.pinterest.com/leme_sherry" }
 //,        {label: "Github", url: "https://github.com/lemesherry"}
 ],
             details: "TBH you are cute <3",
